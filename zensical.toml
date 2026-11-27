@@ -6,8 +6,8 @@ site_name = "HKJV Blog"
 
 # copyright = "Copyright &copy; 2026 Your name"
 
-# repo_url = "https://github.com/user/repo"
-# repo_name = "user/repo"
+ repo_url = "https://github.com/hkjv0/HKJV-Blog"
+ repo_name = "hkjv0/HKJV-Blog"
 # edit_uri = "edit/main/docs/"
 
 nav = [
