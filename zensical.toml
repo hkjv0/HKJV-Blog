@@ -13,9 +13,19 @@ site_name = "HKJV Blog"
 nav = [
   { "Introduction" = "index.md" },
   { "My Setup" = "setup.md" },
+# Parte de las guías
+  { "Guides" = [
+    "guides/index.md",
+  { "Guide 1" = "guides/firstguide.md" },
+  ] },
+# Parte del blog
+ { "Blog" = ["blog/index.md"] },
 ]
+
 # extra_css = ["stylesheets/extra.css"]
 # extra_javascript = ["javascripts/extra.js"]
+
+[project.plugins.blog]
 
 [project.theme]
 # variant = "classic"
@@ -41,7 +51,7 @@ features = [
   # "navigation.instant.progress",
   "navigation.path",
   # "navigation.prune",
-  "navigation.sections",
+ # "navigation.sections",
   # "navigation.tabs",
   # "navigation.tabs.sticky",
   "navigation.top",
