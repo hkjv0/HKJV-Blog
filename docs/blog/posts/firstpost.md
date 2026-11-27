@@ -1,5 +1,7 @@
 ---
-date: 2026-10-02
+date:
+  created:  2026-10-02
+  updated: 2026-11-27
 categories:
   - Browsers
 ---
@@ -14,9 +16,9 @@ To understand this, you first have to realize that Chrome is made by Google, as 
 
 So, usually, when people see that Chrome/Chromium is “owned by Google,” they immediately assume that makes it highly invasive (They’re somewhat right, but not entirely), so they decide to switch to Firefox, where the main argument is that it’s “open source” and independent (…although Google accounts for about 85% of Mozilla Corporation's revenue, which gives it considerable financial influence over the development of Firefox.). The interesting thing is that the most secure browsers today—Vanadium (from the Graphene OS project), Trivalent (inspired by Graphene OS’s Vanadium and the default browser for Secureblue), and, of course, Chrome—are all based on Chromium, which makes you wonder, “Why?” Well, grab your cup of coffee—let’s get started!
 
-   1. **Sandboxing:** Sandboxing is currently one of the cornerstones of security, and Chromium's implementation is superior and more mature than Firefox's (on Android, Firefox has no sandboxing at all, whereas Chromium uses the OS-level ==isolatedProcess== feature).
+   1. **Sandboxing:** Sandboxing is currently one of the cornerstones of browser security, and Chromium's implementation is generally more mature and granular than Firefox's. On Android in particular, Firefox's process isolation and sandboxing are significantly weaker than Chromium's, which leverages Android's OS-level isolatedProcess feature to isolate web content more strictly.
 
-   1. Firefox “forks” (such as Librewolf) usually make the situation worse because they rely on a separate group of developers (which isn't necessarily a bad thing, but it's something to keep in mind) and because the update cycle can be a bit slower, which is a problem in terms of security (and, therefore, privacy). 
+   1. **Firefox “forks”:** (such as Librewolf) usually make the situation worse because they rely on a separate group of developers (which isn't necessarily a bad thing, but it's something to keep in mind) and because the update cycle can be a bit slower, which is a problem in terms of security (and, therefore, privacy). 
 
    1. **Extensions:** One of the main selling points of Firefox (and even used as 'advertising' by Firefox's social media accounts) is that it still supports uBlock Origin, since Chrome (and now Edge) enforced Manifest v3 by disabling MV2 support, which has rendered extensions like uBlock Origin unusable in those browsers, although on paper this may seem like an attack on privacy, the reality is that extensions inherently increase the attack surface and digital fingerprint, and one of the main objectives was to prevent the execution of arbitrary code, along with other significant security concerns—which represented a major step forward, but not the definitive solution.
  
