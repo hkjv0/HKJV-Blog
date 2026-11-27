@@ -17,3 +17,6 @@ Graphene OS, the most secure and private mobile operating system you can get. I 
 
 !!! tip 
     Unless your threat model calls for it, I recommend using the Google Play Store-it’s one of the most secure app stores you can use. Someday I’ll talk about why not everything from Google is actually bad.
+
+   -[:lucide-shredder:]**Duress PIN/Password:** This is a very interesting feature (and if you're interested in these topics, you've probably already heard some news about it) that lets you set a PIN or passcode; when you enter it, your phone irreversibly deletes all your data, which in certain situations can be a crucial last resort.
+
