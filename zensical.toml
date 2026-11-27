@@ -11,7 +11,8 @@ site_name = "HKJV Blog"
 # edit_uri = "edit/main/docs/"
 
 nav = [
-  { "Introducción" = "index.md" },
+  { "Introduction" = "index.md" },
+  { "My Setup" = "setup.md" },
 ]
 # extra_css = ["stylesheets/extra.css"]
 # extra_javascript = ["javascripts/extra.js"]
